@@ -1,0 +1,13 @@
+[package]
+name = "bauhaus-wiki"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <you@example.com>"]
+description = "A minimalist Wikipedia clone with Bauhaus design"
+license = "MIT"
+
+[dependencies]
+
+[[bin]]
+name = "bauhaus-wiki"
+path = "main.rs"
